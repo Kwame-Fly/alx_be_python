@@ -1,14 +1,17 @@
 #Prompt user for weather input
 weather = input("What's the weather like today? (sunny/rainy/cold):")
 
+# Provide clothing recommendations using if, elif and else
 if weather == "sunny":
-    response = "Wear a t-shirt and sunglasses."
+    print("Wear a t-shirt and sunglasses.")
+   
 elif weather == "rainy":
-    response = "Don't forget your umbrella and a raincoat."
-elif weather == "cold":
-    response = "Make sure to wear a warm coat and a scarf."
-else :
-    response = "Sorry, I don't have recommendations for this weather." 
+    print("Don't forget your umbrella and a raincoat.")
 
-#Output of response
-print(response)
+elif weather == "cold":
+    print("Make sure to wear a warm coat and a scarf.")
+     
+else :
+    print("Sorry, I don't have recommendations for this weather.")  
+
+
